@@ -1,0 +1,323 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+h1 {
+    color: yellow;
+    font-size: 50px;
+    font-weight: normal;
+    margin-bottom: 0;
+}
+
+h2 {
+    color: white;
+    font-size: 25px;
+    margin-top: 0px;
+    font-weight: normal;
+}
+
+h3 {
+    text-align: center;
+    font-size: 28px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    color: white;
+    padding-top: 30px;
+}
+
+h4{
+    text-align: center;
+    font-size: 24px;
+    margin-top: 10;
+    margin-bottom: 10;
+    color: white;
+}
+
+.bio {
+    color: white;
+    font-size: 16px;
+}
+
+.profilepic {
+    height: 150px ;
+    border-radius: 100% ;
+    border-style: groove;
+    border-color: #dee829;
+    margin-top: 70px;
+}
+
+.about {
+    width: 520px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.grey {
+    height: 3px;
+    background-color: white;
+    border: none;
+    width: 200px;
+}
+.darkgrey{
+    height: 3px;
+    background-color: black;
+    border: none;
+    width: 200px; 
+}
+.about-container {
+    background: url(Images/Optimized-josh-nuttall-271928.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 600px;
+}
+
+.white {
+    height: 3px; 
+    /*background-color:black; */ 
+    border: none;
+    width: 200px;
+    margin-top: 15; 
+    border-top: 4px double #8c8b8b;
+}
+.box{
+    float: left;
+    width: 42.5%;
+    margin-left: 5%;
+    margin-top: 50px;
+}
+
+.clear{
+    clear: both;
+}
+.snippets{
+    font-size: 16px;
+}
+.snippets-container {
+    background: url(Images/Optimized-caspar-rubin.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 700px;
+} 
+p{
+    text-align: center;
+    color: white;
+}
+.full-width{
+    width: 100%;
+}
+.language-ruby{
+    color: white;
+}
+pre{
+    background-color: #2F77CF;
+    border-radius: 25px;
+    width: 250px;
+
+}
+
+.webapps{
+    color: black;
+    
+}
+.description{
+    color: black;
+}
+.skills{
+    color: black;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 10px auto;
+}
+.icons{
+    text-align: center;
+    margin: 30px 30px;
+}
+.webapps-container {
+    background: url(Images/bg12.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 1500px;
+    
+}
+.contact{
+    height: 350px;
+    background-color: grey;
+    padding-top: 30px;
+}
+.contact-headline{
+    color: white;
+}
+.contact-info {
+    color: white;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.contact-link {
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    text-decoration: none;
+}
+.nav-link{
+    color: white;
+    text-decoration: none;
+}
+
+.nav-link:hover{
+    height: 23px;
+    width: 70px;    
+   /* animation-name: nav; 
+    animation-duration: 5ms;
+    animation-fill-mode: forwards; */ 
+}
+
+/* @keyframes nav {
+    from {color: white;}
+    to {color: black;} 
+} */
+li {
+    display: inline-block;
+    font-size: 18px;
+    width: auto;
+    font-weight: bold;
+    margin-top: 0px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: center;
+    margin-left: 120px;
+
+}
+
+ul{
+    background-color: rgba(39, 98, 248, 0.74);
+    position: fixed;
+    width: 100%;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin-top: 0px;
+    height: 35px;
+}
+.hire-me {
+    /* border-bottom: 1.5px solid white; */
+    border-style: solid; 
+    border-color: white; 
+    padding: 0 10px;
+    border-width: 1px; 
+}
+
+li a:hover{
+    transition: all 0.4s ease-out;
+    opacity: 0.7; 
+    text-shadow: 2px 3px black;
+ 
+    /* transform: scale(1.2); */ 
+}
+
+  
+/* .hire-me:hover{
+    height: 25px;
+    width: 70px;    
+    animation-name: example; 
+    border-color: black; 
+    animation-duration: 5ms;
+    animation-fill-mode: forwards; 
+    -webkit-transform: scale(1.1) rotate(360deg);
+	-moz-transform: scale(1.1) rotate(360deg);
+	-ms-transform: scale(1.1) rotate(360deg);
+	-o-transform: scale(1.1) rotate(360deg);
+	transform: scale(1.1) rotate(360deg);
+} 
+
+ @keyframes example {
+    from {border-color: white;}
+    to {border-color: black;}
+} */
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+.fa:hover {
+    opacity: 0.5;
+    color: #FFF;
+	-webkit-box-shadow: 1px 1px 3px #333;
+	-moz-box-shadow: 1px 1px 3px #333;
+	box-shadow: 1px 1px 3px #333; 
+    transition: all 0.3s ease-in-out;
+
+    -webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-o-transform: scale(1.1);
+    transform: scale(1.1); 
+    
+    -webkit-transform: scale(1.1) rotate(360deg);
+	-moz-transform: scale(1.1) rotate(360deg);
+	-ms-transform: scale(1.1) rotate(360deg);
+	-o-transform: scale(1.1) rotate(360deg);
+	transform: scale(1.1) rotate(360deg);
+}
+
+/* Set a specific color for each brand */
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-instagram {
+    background: rgb(221, 42, 123);
+    color: white;
+}
+
+.fa-snapchat {
+    background: rgba(255, 252, 0, 0.90);
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.fa-envelope{
+    background-color: #080707;
+    color: white;
+}
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: rgba(39, 98, 248, 0.74); /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 100px; /* Rounded corners */
+}
+
+#myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+}
+  
